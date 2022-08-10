@@ -1,0 +1,45 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.header-color {
+  background-color: #f1f3ff;
+}
+
+/* .car-handle {
+  position: relative;
+  min-height: 500px;
+} */
+
+.custom-navbar {
+  align-items: flex-end;
+}
+
+.judul {
+  font-weight: 700;
+}
+
+.img-car {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  /* .car-handle {
+    position: static;
+  } */
+
+  .custom-navbar {
+    align-items: flex-start;
+  }
+
+  /* .img-car {
+    position: static;
+    width: 100%;
+  } */
+}
+
+.carousel-item-data{
+  background-color: #ccc;
+  width: 100%;
+  height: 500px;
+}
